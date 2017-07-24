@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TO DO LIST</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div id="header">
+		<h1>Todo List</h1>
+	</div>
+    <div class="container">
+      <p>
+        <label for="new-task">Add Task</label><input id="new-task" type="text"><button>Add</button>
+      </p>
+      
+      <h3>Task List</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Attend the Conference</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li><input type="checkbox"><label>Go Shopping</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+        <li><input type="checkbox"><label>Hit the Gym</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+      
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>Meet with the Doctor</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+      </ul>
+    </div>
+<script src="todo.js"></script>
+</body>
+</html>
